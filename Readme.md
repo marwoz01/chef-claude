@@ -9,7 +9,7 @@ Projekt działa w wersji demo – klucz API jest ukryty.
 
 ## Podgląd aplikacji
 
-![Widok przepisu](./screenshots/recipe.png)
+![Widok przepisu](./chef-claude/screenshots/recipe.png)
 
 ---
 
