@@ -1,16 +1,37 @@
-# Chef Claude
+# Chef Claude 🍳
 
-**Live:** https://marwoz01.github.io/chef-claude/
+**Live demo:** [Kliknij tutaj, aby zobaczyć](https://marwoz01.github.io/chef-claude/)
 
-Po wypisaniu składników, aplikacja wysyła je do **Claude API** i zwraca **przepis** do zrobienia z tych produktów.
+Aplikacja pozwala wpisać listę składników, po czym wysyła je do **Claude API** i generuje propozycję **przepisu** do przygotowania z podanych produktów.  
+Projekt działa w wersji demo – klucz API jest ukryty.
+
+---
+
+## Podgląd aplikacji
+
+![Ekran główny](./screenshots/screenshot-main.png)
+![Wygenerowany przepis](./screenshots/screenshot-recipe.png)
+
+---
 
 ## Funkcje
-- Dodawanie składników
+- Dodawanie składników do listy
+- Wysyłanie składników do Claude API
 - Generowanie i wyświetlanie przepisu
+- Prosty i responsywny interfejs
 
-## Co przećwiczyłem podczas projektu:
-- `useState`, listy (`map`, keys)
-- Zdarzenia i formularze (`onSubmit`, `FormData`)
-- Aktualizacja stanu (tablice/obiekty, callback w setterze)
-- Renderowanie warunkowe (`&&`, `?:`)
-- Props vs state, lifting state, podział na komponenty
+---
+
+## Technologie
+- **React** + Vite
+- CSS
+- Claude API (Anthropic)
+
+---
+
+## Co przećwiczyłem w projekcie
+1. Event listeners  
+2. State  
+3. Conditional rendering  
+4. Forms  
+5. State management strategies  
