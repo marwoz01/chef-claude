@@ -9,12 +9,12 @@ Projekt działa w wersji demo – klucz API jest ukryty.
 
 ## Podgląd aplikacji
 
-![Ekran główny](./screenshots/screenshot-main.png)
-![Wygenerowany przepis](./screenshots/screenshot-recipe.png)
+![Widok przepisu](./screenshots/recipe.png)
 
 ---
 
 ## Funkcje
+
 - Dodawanie składników do listy
 - Wysyłanie składników do Claude API
 - Generowanie i wyświetlanie przepisu
@@ -23,6 +23,7 @@ Projekt działa w wersji demo – klucz API jest ukryty.
 ---
 
 ## Technologie
+
 - **React** + Vite
 - CSS
 - Claude API (Anthropic)
@@ -30,8 +31,9 @@ Projekt działa w wersji demo – klucz API jest ukryty.
 ---
 
 ## Co przećwiczyłem w projekcie
-1. Event listeners  
-2. State  
-3. Conditional rendering  
-4. Forms  
-5. State management strategies  
+
+1. Event listeners
+2. State
+3. Conditional rendering
+4. Forms
+5. State management strategies
