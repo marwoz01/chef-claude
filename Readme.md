@@ -5,8 +5,8 @@
 Po wypisaniu składników, aplikacja wysyła je do **Claude API** i zwraca **przepis** do zrobienia z tych produktów.
 
 ## Funkcje
-- Dodawanie składników → lista
-- Generowanie i wyświetlanie przepisu (renderowanie warunkowe)
+- Dodawanie składników
+- Generowanie i wyświetlanie przepisu
 
 ## Co przećwiczyłem podczas projektu:
 - `useState`, listy (`map`, keys)
