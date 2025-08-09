@@ -3,7 +3,7 @@
 **Live demo:** [Kliknij tutaj, aby zobaczyć](https://marwoz01.github.io/chef-claude/)
 
 Aplikacja pozwala wpisać listę składników, po czym wysyła je do **Claude API** i generuje propozycję **przepisu** do przygotowania z podanych produktów.  
-Projekt działa w wersji demo – klucz API jest ukryty.
+**Projekt działa w wersji demo – klucz API jest ukryty.**
 
 ---
 
