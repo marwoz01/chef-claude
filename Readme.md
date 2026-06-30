@@ -1,13 +1,12 @@
-# Chef Claude 🍳
+# Chef Claude
 
-**Live demo:** [Kliknij tutaj, aby zobaczyć](https://marwoz01.github.io/chef-claude/)
+**Live demo:** [Kliknij tutaj, aby zobaczyc](https://marwoz01.github.io/chef-claude/)
 
-Aplikacja pozwala wpisać listę składników, po czym wysyła je do **Claude API** i generuje propozycję **przepisu** do przygotowania z podanych produktów.  
-**Projekt działa w wersji demo – klucz API jest ukryty.**
+Aplikacja pozwala wpisac liste skladnikow, a nastepnie pobiera realny przepis z darmowego publicznego API **TheMealDB**. Nie wymaga klucza API ani backendu.
 
 ---
 
-## Podgląd aplikacji
+## Podglad aplikacji
 
 ![Widok przepisu](./chef-claude/screenshots/recipe.png)
 
@@ -15,25 +14,26 @@ Aplikacja pozwala wpisać listę składników, po czym wysyła je do **Claude AP
 
 ## Funkcje
 
-- Dodawanie składników do listy
-- Wysyłanie składników do Claude API
-- Generowanie i wyświetlanie przepisu
-- Prosty i responsywny interfejs
+- Dodawanie i usuwanie skladnikow
+- Wyszukiwanie przepisow w TheMealDB
+- Dobieranie najlepszego przepisu do podanych skladnikow
+- Wyswietlanie zdjecia, skladnikow, instrukcji i linkow zrodlowych
+- Prosty, responsywny interfejs
+
+---
+
+## Uruchomienie lokalne
+
+```bash
+cd chef-claude
+npm install
+npm run dev
+```
 
 ---
 
 ## Technologie
 
-- **React** + Vite
+- React + Vite
 - CSS
-- Claude API (Anthropic)
-
----
-
-## Co przećwiczyłem w projekcie
-
-1. Event listeners
-2. State
-3. Conditional rendering
-4. Forms
-5. State management strategies
+- TheMealDB API
